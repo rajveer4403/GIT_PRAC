@@ -1,0 +1,375 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Photo Gallery Using Flex</title>
+<style>
+  /* Header */
+  .Mainheader {
+    display: flex;
+    background-color: #000; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .Mainheader h1 {
+    font-size: 40px;
+    color: whitesmoke;
+    margin: 0;
+  }
+
+  /* Gallery container */
+  .Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  /* Gallery items */
+  .Gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    flex: 1 1 calc(25% - 15px); /* 4 per row with gap */
+    max-width: calc(25% - 15px);
+    min-width: 180px;
+    cursor: pointer;
+  }
+
+  .Gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    display: block;
+  }
+
+  /* Hover effect */
+  .Gallery-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .Gallery-item {
+      flex: 1 1 calc(33.33% - 15px); /* 3 per row */
+      max-width: calc(33.33% - 15px);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Gallery-item {
+      flex: 1 1 calc(50% - 15px); /* 2 per row */
+      max-width: calc(50% - 15px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .Gallery-item {
+      flex: 1 1 100%; /* 1 per row */
+      max-width: 100%;
+    }
+    .Mainheader h1 {
+      font-size: 26px;
+    }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="Mainheader">
+  <h1>RESPONSIVE 4-COLUMN PHOTO GALLERY</h1>
+</div>
+
+<div class="Gallery">
+  <div class="Gallery-item">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Photo 1">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-iriser-1366957.jpg" alt="Photo 2">
+  </div>
+  <div class="Gallery-item">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Photo 3">
+  </div>
+  <div class="Gallery-item">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Photo 4">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Photo 5">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-iriser-1366957.jpg" alt="Photo 6">
+  </div>
+  <div class="Gallery-item">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Photo 7">
+  </div>
+  <div class="Gallery-item">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Photo 8">
+  </div>
+</div>
+
+</body>
+</html>
+=======
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Photo Gallery Using Flex</title>
+<style>
+  /* Header */
+  .Mainheader {
+    display: flex;
+    background-color: #000; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .Mainheader h1 {
+    font-size: 40px;
+    color: whitesmoke;
+    margin: 0;
+  }
+
+  /* Gallery container */
+  .Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  /* Gallery items */
+  .Gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    flex: 1 1 calc(25% - 15px); /* 4 per row with gap */
+    max-width: calc(25% - 15px);
+    min-width: 180px;
+    cursor: pointer;
+  }
+
+  .Gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    display: block;
+  }
+
+  /* Hover effect */
+  .Gallery-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .Gallery-item {
+      flex: 1 1 calc(33.33% - 15px); /* 3 per row */
+      max-width: calc(33.33% - 15px);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Gallery-item {
+      flex: 1 1 calc(50% - 15px); /* 2 per row */
+      max-width: calc(50% - 15px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .Gallery-item {
+      flex: 1 1 100%; /* 1 per row */
+      max-width: 100%;
+    }
+    .Mainheader h1 {
+      font-size: 26px;
+    }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="Mainheader">
+  <h1>RESPONSIVE 4-COLUMN PHOTO GALLERY</h1>
+</div>
+
+<div class="Gallery">
+  <div class="Gallery-item">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Photo 1">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-iriser-1366957.jpg" alt="Photo 2">
+  </div>
+  <div class="Gallery-item">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Photo 3">
+  </div>
+  <div class="Gallery-item">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Photo 4">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Photo 5">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-iriser-1366957.jpg" alt="Photo 6">
+  </div>
+  <div class="Gallery-item">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Photo 7">
+  </div>
+  <div class="Gallery-item">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Photo 8">
+  </div>
+</div>
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Photo Gallery Using Flex</title>
+<style>
+  /* Header */
+  .Mainheader {
+    display: flex;
+    background-color: #000; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .Mainheader h1 {
+    font-size: 40px;
+    color: whitesmoke;
+    margin: 0;
+  }
+
+  /* Gallery container */
+  .Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  /* Gallery items */
+  .Gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    flex: 1 1 calc(25% - 15px); /* 4 per row with gap */
+    max-width: calc(25% - 15px);
+    min-width: 180px;
+    cursor: pointer;
+  }
+
+  .Gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    display: block;
+  }
+
+  /* Hover effect */
+  .Gallery-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .Gallery-item {
+      flex: 1 1 calc(33.33% - 15px); /* 3 per row */
+      max-width: calc(33.33% - 15px);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Gallery-item {
+      flex: 1 1 calc(50% - 15px); /* 2 per row */
+      max-width: calc(50% - 15px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .Gallery-item {
+      flex: 1 1 100%; /* 1 per row */
+      max-width: 100%;
+    }
+    .Mainheader h1 {
+      font-size: 26px;
+    }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="Mainheader">
+  <h1>RESPONSIVE 4-COLUMN PHOTO GALLERY</h1>
+</div>
+
+<div class="Gallery">
+  <div class="Gallery-item">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Photo 1">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-iriser-1366957.jpg" alt="Photo 2">
+  </div>
+  <div class="Gallery-item">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Photo 3">
+  </div>
+  <div class="Gallery-item">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Photo 4">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Photo 5">
+  </div>
+  <div class="Gallery-item">
+    <img src="pexels-iriser-1366957.jpg" alt="Photo 6">
+  </div>
+  <div class="Gallery-item">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Photo 7">
+  </div>
+  <div class="Gallery-item">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Photo 8">
+  </div>
+</div>
+
+</body>
+</html>
+>>>>>>> ccd6705652680aa6341766880d79dc720f775231
+>>>>>>> 725d03a13c82304612eba9b8bf4f425918787545
