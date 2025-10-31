@@ -1,0 +1,594 @@
+<<<<<<< HEAD
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+  body {
+    background-color: whitesmoke;
+
+  }
+
+  .flex-container {
+    display: flex;             
+    flex-direction: column;   
+    background-color: rgb(9, 255, 67); 
+    justify-content: center;  
+    align-items: center;     
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+
+  .flex-container h1 {
+    color: black;
+    font-size: 48px;  
+    margin: 10px 0;
+  }
+
+  .flex-container h2 {
+    color: black;
+    font-size: 25px;      
+    margin: 5px 0;
+  }
+
+  .flex-tabs {
+    display: flex;             
+    flex-direction: row;   
+    background-color: rgb(1, 1, 19); 
+    justify-content: center;  
+    align-items: center;     
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+
+  .flex-tabs > div {
+    font-size: 15px;
+    padding: 15px 25px;
+    color: aliceblue;
+  }
+
+  .flex-content {
+    margin: 30px 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 2px solid white;              
+    border-radius: 12px;                  
+    box-shadow: 0px 4px 10px rgba(0, 255, 17, 0.5);
+  }
+
+  .flex-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(0, 180, 13);
+  }
+
+  .flex-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+  }
+  .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+  
+ .flex-footer {
+  background-color: rgb(9, 255, 67);
+  display: flex;             
+  justify-content: center;    
+  align-items: center;       
+  height: 50px;
+  border-radius: 5px;
+}
+
+.flex-footer h3 {
+  font-size: 15px;
+  color: black;
+  margin: 0;  
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <h1>MARWADI UNIVERSITY</h1>
+  <h2>FACULTY OF ENGINEERING AND TECHNOLOGY (FOET)</h2>
+</div>
+
+<div class="flex-tabs">
+  <div>VISION</div>
+  <div>MISSION</div>
+  <div>PROGRAM SPECIFIC OUTCOMES</div>
+  <div>COURSES OFFERED</div>
+  <div>IMAGE GALLERY</div>
+  <div>TOP RECRUITERS</div>
+</div>
+
+<div class="flex-content">
+  <h1>VISION</h1>
+  <p>1) To emerge as a globally recognized center of excellence in higher education, research, and innovation, nurturing future leaders who contribute to society with knowledge, ethics, and sustainability.<br>
+  2) We aspire to be an institution where creativity meets technology, where students are empowered with skills, values, and the spirit of entrepreneurship to address global challenges and improve the quality of life.</p>
+</div>
+
+<div class="flex-content">
+  <h1>MISSION</h1>
+  <p>To provide high-quality education in engineering, science, and technology through innovative teaching and learning methodologies.<br><br>
+  To foster a research-oriented environment that promotes creativity, critical thinking, and problem-solving skills among students and faculty.<br><br>
+  To collaborate with industries and research organizations for developing technologies that serve society.<br><br>
+  To instill ethical values, leadership qualities, and social responsibility in students, making them competent professionals and responsible citizens.<br><br>
+  To encourage innovation, entrepreneurship, and lifelong learning for personal and professional growth.</p>
+</div>
+
+<div class="flex-content">
+  <h1>Program Specific Outcomes (PSO)</h1>
+  <p>PSO 1: Graduates will be able to apply fundamental knowledge of mathematics, science, and engineering to design, develop, and analyze real-world engineering problems.<br><br>
+  PSO 2: Graduates will have the ability to use modern engineering tools, techniques, and software to develop solutions for complex systems with societal and environmental considerations.<br><br>
+  PSO 3: Graduates will demonstrate leadership, communication, teamwork, and entrepreneurial skills to succeed in multidisciplinary projects and professional careers.<br><br>
+  PSO 4: Graduates will commit to lifelong learning, ethical practices, and sustainability while contributing positively to society and the global environment.</p>
+</div>
+
+<div class="flex-content">
+  <h1>Courses Offered</h1>
+  <p><b>Undergraduate Programs (B.Tech):</b><br>
+  Computer Science & Engineering<br>
+  Artificial Intelligence & Data Science<br>
+  Information Technology<br>
+  Electronics & Communication Engineering<br>
+  Electrical Engineering<br>
+  Mechanical Engineering<br>
+  Civil Engineering<br><br>
+
+  <b>Postgraduate Programs (M.Tech):</b><br>
+  Structural Engineering<br>
+  VLSI Design<br>
+  Cyber Security<br>
+  Thermal Engineering<br><br>
+
+  <b>Doctoral Programs (Ph.D.):</b><br>
+  Computer Science<br>
+  Electronics & Communication<br>
+  Mechanical Engineering<br>
+  Civil Engineering</p>
+</div>
+<div class="flex-content">
+  <h1>IMAGE GALLERY</h1>
+  <div class="gallery">
+    <img src="pexels-iriser-1366957.jpg" alt="Event 1">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Event 2">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Event 3">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Event 4">
+    <img src="dan-freeman-wAn4RfmXtxU-unsplash.jpg" alt="Event 5">
+  </div>
+</div>
+
+
+<div class="flex-content">
+  <h1>TOP RECRUITERS</h1>
+  <p>Our students have been consistently placed in leading national and international companies with attractive salary packages. Some of our top recruiting partners include:<br><br>
+  Google, Microsoft, Amazon, Infosys, Tata Consultancy Services (TCS), Wipro, IBM, Capgemini, Accenture, Cognizant, Tech Mahindra, Larsen & Toubro (L&T), Siemens, Reliance Industries Limited, Mahindra & Mahindra.</p>
+</div>
+
+
+<div class="flex-footer">
+  <h3>©2025 MARWADI UNIVERSITY - FACULTY OF ENGINEERING AND TECHNOLOGY (FOET) </h3>
+
+</div>
+
+</body>
+</html>
+=======
+<<<<<<< HEAD
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+  body {
+    background-color: whitesmoke;
+
+  }
+
+  .flex-container {
+    display: flex;             
+    flex-direction: column;   
+    background-color: rgb(9, 255, 67); 
+    justify-content: center;  
+    align-items: center;     
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+
+  .flex-container h1 {
+    color: black;
+    font-size: 48px;  
+    margin: 10px 0;
+  }
+
+  .flex-container h2 {
+    color: black;
+    font-size: 25px;      
+    margin: 5px 0;
+  }
+
+  .flex-tabs {
+    display: flex;             
+    flex-direction: row;   
+    background-color: rgb(1, 1, 19); 
+    justify-content: center;  
+    align-items: center;     
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+
+  .flex-tabs > div {
+    font-size: 15px;
+    padding: 15px 25px;
+    color: aliceblue;
+  }
+
+  .flex-content {
+    margin: 30px 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 2px solid white;              
+    border-radius: 12px;                  
+    box-shadow: 0px 4px 10px rgba(0, 255, 17, 0.5);
+  }
+
+  .flex-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(0, 180, 13);
+  }
+
+  .flex-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+  }
+  .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+  
+ .flex-footer {
+  background-color: rgb(9, 255, 67);
+  display: flex;             
+  justify-content: center;    
+  align-items: center;       
+  height: 50px;
+  border-radius: 5px;
+}
+
+.flex-footer h3 {
+  font-size: 15px;
+  color: black;
+  margin: 0;  
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <h1>MARWADI UNIVERSITY</h1>
+  <h2>FACULTY OF ENGINEERING AND TECHNOLOGY (FOET)</h2>
+</div>
+
+<div class="flex-tabs">
+  <div>VISION</div>
+  <div>MISSION</div>
+  <div>PROGRAM SPECIFIC OUTCOMES</div>
+  <div>COURSES OFFERED</div>
+  <div>IMAGE GALLERY</div>
+  <div>TOP RECRUITERS</div>
+</div>
+
+<div class="flex-content">
+  <h1>VISION</h1>
+  <p>1) To emerge as a globally recognized center of excellence in higher education, research, and innovation, nurturing future leaders who contribute to society with knowledge, ethics, and sustainability.<br>
+  2) We aspire to be an institution where creativity meets technology, where students are empowered with skills, values, and the spirit of entrepreneurship to address global challenges and improve the quality of life.</p>
+</div>
+
+<div class="flex-content">
+  <h1>MISSION</h1>
+  <p>To provide high-quality education in engineering, science, and technology through innovative teaching and learning methodologies.<br><br>
+  To foster a research-oriented environment that promotes creativity, critical thinking, and problem-solving skills among students and faculty.<br><br>
+  To collaborate with industries and research organizations for developing technologies that serve society.<br><br>
+  To instill ethical values, leadership qualities, and social responsibility in students, making them competent professionals and responsible citizens.<br><br>
+  To encourage innovation, entrepreneurship, and lifelong learning for personal and professional growth.</p>
+</div>
+
+<div class="flex-content">
+  <h1>Program Specific Outcomes (PSO)</h1>
+  <p>PSO 1: Graduates will be able to apply fundamental knowledge of mathematics, science, and engineering to design, develop, and analyze real-world engineering problems.<br><br>
+  PSO 2: Graduates will have the ability to use modern engineering tools, techniques, and software to develop solutions for complex systems with societal and environmental considerations.<br><br>
+  PSO 3: Graduates will demonstrate leadership, communication, teamwork, and entrepreneurial skills to succeed in multidisciplinary projects and professional careers.<br><br>
+  PSO 4: Graduates will commit to lifelong learning, ethical practices, and sustainability while contributing positively to society and the global environment.</p>
+</div>
+
+<div class="flex-content">
+  <h1>Courses Offered</h1>
+  <p><b>Undergraduate Programs (B.Tech):</b><br>
+  Computer Science & Engineering<br>
+  Artificial Intelligence & Data Science<br>
+  Information Technology<br>
+  Electronics & Communication Engineering<br>
+  Electrical Engineering<br>
+  Mechanical Engineering<br>
+  Civil Engineering<br><br>
+
+  <b>Postgraduate Programs (M.Tech):</b><br>
+  Structural Engineering<br>
+  VLSI Design<br>
+  Cyber Security<br>
+  Thermal Engineering<br><br>
+
+  <b>Doctoral Programs (Ph.D.):</b><br>
+  Computer Science<br>
+  Electronics & Communication<br>
+  Mechanical Engineering<br>
+  Civil Engineering</p>
+</div>
+<div class="flex-content">
+  <h1>IMAGE GALLERY</h1>
+  <div class="gallery">
+    <img src="pexels-iriser-1366957.jpg" alt="Event 1">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Event 2">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Event 3">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Event 4">
+    <img src="dan-freeman-wAn4RfmXtxU-unsplash.jpg" alt="Event 5">
+  </div>
+</div>
+
+
+<div class="flex-content">
+  <h1>TOP RECRUITERS</h1>
+  <p>Our students have been consistently placed in leading national and international companies with attractive salary packages. Some of our top recruiting partners include:<br><br>
+  Google, Microsoft, Amazon, Infosys, Tata Consultancy Services (TCS), Wipro, IBM, Capgemini, Accenture, Cognizant, Tech Mahindra, Larsen & Toubro (L&T), Siemens, Reliance Industries Limited, Mahindra & Mahindra.</p>
+</div>
+
+
+<div class="flex-footer">
+  <h3>©2025 MARWADI UNIVERSITY - FACULTY OF ENGINEERING AND TECHNOLOGY (FOET) </h3>
+
+</div>
+
+</body>
+</html>
+=======
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+  body {
+    background-color: whitesmoke;
+
+  }
+
+  .flex-container {
+    display: flex;             
+    flex-direction: column;   
+    background-color: rgb(9, 255, 67); 
+    justify-content: center;  
+    align-items: center;     
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+
+  .flex-container h1 {
+    color: black;
+    font-size: 48px;  
+    margin: 10px 0;
+  }
+
+  .flex-container h2 {
+    color: black;
+    font-size: 25px;      
+    margin: 5px 0;
+  }
+
+  .flex-tabs {
+    display: flex;             
+    flex-direction: row;   
+    background-color: rgb(1, 1, 19); 
+    justify-content: center;  
+    align-items: center;     
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+
+  .flex-tabs > div {
+    font-size: 15px;
+    padding: 15px 25px;
+    color: aliceblue;
+  }
+
+  .flex-content {
+    margin: 30px 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 2px solid white;              
+    border-radius: 12px;                  
+    box-shadow: 0px 4px 10px rgba(0, 255, 17, 0.5);
+  }
+
+  .flex-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(0, 180, 13);
+  }
+
+  .flex-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+  }
+  .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+  
+ .flex-footer {
+  background-color: rgb(9, 255, 67);
+  display: flex;             
+  justify-content: center;    
+  align-items: center;       
+  height: 50px;
+  border-radius: 5px;
+}
+
+.flex-footer h3 {
+  font-size: 15px;
+  color: black;
+  margin: 0;  
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <h1>MARWADI UNIVERSITY</h1>
+  <h2>FACULTY OF ENGINEERING AND TECHNOLOGY (FOET)</h2>
+</div>
+
+<div class="flex-tabs">
+  <div>VISION</div>
+  <div>MISSION</div>
+  <div>PROGRAM SPECIFIC OUTCOMES</div>
+  <div>COURSES OFFERED</div>
+  <div>IMAGE GALLERY</div>
+  <div>TOP RECRUITERS</div>
+</div>
+
+<div class="flex-content">
+  <h1>VISION</h1>
+  <p>1) To emerge as a globally recognized center of excellence in higher education, research, and innovation, nurturing future leaders who contribute to society with knowledge, ethics, and sustainability.<br>
+  2) We aspire to be an institution where creativity meets technology, where students are empowered with skills, values, and the spirit of entrepreneurship to address global challenges and improve the quality of life.</p>
+</div>
+
+<div class="flex-content">
+  <h1>MISSION</h1>
+  <p>To provide high-quality education in engineering, science, and technology through innovative teaching and learning methodologies.<br><br>
+  To foster a research-oriented environment that promotes creativity, critical thinking, and problem-solving skills among students and faculty.<br><br>
+  To collaborate with industries and research organizations for developing technologies that serve society.<br><br>
+  To instill ethical values, leadership qualities, and social responsibility in students, making them competent professionals and responsible citizens.<br><br>
+  To encourage innovation, entrepreneurship, and lifelong learning for personal and professional growth.</p>
+</div>
+
+<div class="flex-content">
+  <h1>Program Specific Outcomes (PSO)</h1>
+  <p>PSO 1: Graduates will be able to apply fundamental knowledge of mathematics, science, and engineering to design, develop, and analyze real-world engineering problems.<br><br>
+  PSO 2: Graduates will have the ability to use modern engineering tools, techniques, and software to develop solutions for complex systems with societal and environmental considerations.<br><br>
+  PSO 3: Graduates will demonstrate leadership, communication, teamwork, and entrepreneurial skills to succeed in multidisciplinary projects and professional careers.<br><br>
+  PSO 4: Graduates will commit to lifelong learning, ethical practices, and sustainability while contributing positively to society and the global environment.</p>
+</div>
+
+<div class="flex-content">
+  <h1>Courses Offered</h1>
+  <p><b>Undergraduate Programs (B.Tech):</b><br>
+  Computer Science & Engineering<br>
+  Artificial Intelligence & Data Science<br>
+  Information Technology<br>
+  Electronics & Communication Engineering<br>
+  Electrical Engineering<br>
+  Mechanical Engineering<br>
+  Civil Engineering<br><br>
+
+  <b>Postgraduate Programs (M.Tech):</b><br>
+  Structural Engineering<br>
+  VLSI Design<br>
+  Cyber Security<br>
+  Thermal Engineering<br><br>
+
+  <b>Doctoral Programs (Ph.D.):</b><br>
+  Computer Science<br>
+  Electronics & Communication<br>
+  Mechanical Engineering<br>
+  Civil Engineering</p>
+</div>
+<div class="flex-content">
+  <h1>IMAGE GALLERY</h1>
+  <div class="gallery">
+    <img src="pexels-iriser-1366957.jpg" alt="Event 1">
+    <img src="jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Event 2">
+    <img src="painting-mountain-lake-with-mountain-background.jpg" alt="Event 3">
+    <img src="pexels-christian-heitz-285904-842711.jpg" alt="Event 4">
+    <img src="dan-freeman-wAn4RfmXtxU-unsplash.jpg" alt="Event 5">
+  </div>
+</div>
+
+
+<div class="flex-content">
+  <h1>TOP RECRUITERS</h1>
+  <p>Our students have been consistently placed in leading national and international companies with attractive salary packages. Some of our top recruiting partners include:<br><br>
+  Google, Microsoft, Amazon, Infosys, Tata Consultancy Services (TCS), Wipro, IBM, Capgemini, Accenture, Cognizant, Tech Mahindra, Larsen & Toubro (L&T), Siemens, Reliance Industries Limited, Mahindra & Mahindra.</p>
+</div>
+
+
+<div class="flex-footer">
+  <h3>©2025 MARWADI UNIVERSITY - FACULTY OF ENGINEERING AND TECHNOLOGY (FOET) </h3>
+
+</div>
+
+</body>
+</html>
+>>>>>>> ccd6705652680aa6341766880d79dc720f775231
+>>>>>>> 725d03a13c82304612eba9b8bf4f425918787545
